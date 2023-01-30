@@ -35,24 +35,20 @@ body
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.5em;
   width: 20px;
+  color: #eee;
   
  
 }
-/* div
-{ display: flex;
-  max-width: 180px;
-  color: #eee;
-  background-color: black;
-  justify-content: center;
-}
- */
+
 .bg1, .bg2
 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 250px;
   height: 350px;
+  color: #eee;
   
   
 }
