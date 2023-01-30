@@ -32,7 +32,7 @@ body
   display: grid;
   /* grid-template-columns: repeat(4 200px);
   grid-template-rows: repeat(9 200px); */
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.5em;
   width: 20px;
   color: #eee;
